@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -7,12 +6,12 @@
  * Return: Always 0 (Success)
  */
 
-
 int main(void)
 {
-	char MyStr[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(MyStr);
+	
+	printf("with proper grammar, but the outcome is a piece of art,");
 
 	return (0);
 }
+
+
