@@ -12,7 +12,7 @@ int main(void)
 {
 	int a = 10;
 	char b = 'a';
-	float c= 2.3;
+	float c = 2.3;
 	long int d = 2380567;
 	long long int e = 2000000000;
 
@@ -22,6 +22,5 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", sizeof(d));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(e));
 	printf("Size of a float: %d byte(s)\n", sizeof(c));
-
-    	return (0);
+	return (0);
 }
