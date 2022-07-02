@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int a = 0;
+	char a = 18;
 	char b = 'a';
 
-	while (a < 10)
+	while (a < 28)
 	{
 		putchar(a);
 		a++;
