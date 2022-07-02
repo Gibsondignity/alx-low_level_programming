@@ -10,7 +10,7 @@
 int main(void)
 {
 	char a = 0;
-	char b = 'a'
+	char b;
 
 	while (a < 16)
 	{
@@ -20,7 +20,7 @@ int main(void)
 		}
 		else
 		{
-			for (b <= 'f')
+			for (b = 'a'; b <= 'f'; b++)
 			{
 				putchar(b);
 			}
