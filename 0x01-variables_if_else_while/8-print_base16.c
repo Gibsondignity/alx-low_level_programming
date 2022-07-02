@@ -9,22 +9,19 @@
 
 int main(void)
 {
-	char a = 0;
-	char b;
+	char a = '0';
+	char b = 'a';
 
-	while (a < 16)
+	while (a < 10)
 	{
-		if (a < 10)
-		{
-			putchar(a);
-		}
-		else
-		{
-			for (b = 'a'; b <= 'f'; b++)
-			{
-				putchar(b);
-			}
-		}
+		putchar(a);
+		a++;
+	}
+
+	while (b <= 'f')
+	{
+		putchar(b);
+		b++;
 	}
 
 	putchar('\n');
