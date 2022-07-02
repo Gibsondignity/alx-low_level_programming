@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	char al;
+	char al = 'z';
 
-	for (al = 'a'; al <= 'z'; al++)
+	while (al >= 'a')
 	{
-		putchar(strrev(al));
+		putchar(al);
+		al--;
 	}
 
 	putchar('\n');
