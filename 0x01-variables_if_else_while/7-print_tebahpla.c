@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Entry point
@@ -9,14 +10,14 @@
 
 int main(void)
 {
-	int i = 48;
+	char al;
 
-	while (i < 58)
+	for (al = 'a'; al <= 'z'; al++)
 	{
-		putchar(i);
-		i++;
+		putchar(strrev(al));
 	}
 
 	putchar('\n');
+
 	return (0);
 }
